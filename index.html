@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Vendor Details</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container bg-white d-flex justify-content-center flex-column align-items-center container-shadow my-3 py-2 border">
+        <div class="profile-pic mx-3 border rounded-circle">
+        </div>
+        <h1 class="heading">Vendor Name</h1>
+    </div>
+    <div class="container bg-white d-flex justify-content-center align-items-center container-shadow my-3 py-2 border">
+        <button class="tablinks btn active" onclick="openCity(event, 'London')">Personal Info</button>
+        <button class="tablinks btn" onclick="openCity(event, 'Paris')">Second tab</button>
+        <button class="tablinks btn" onclick="openCity(event, 'Tokyo')">Third Tab</button>
+        <button class="tablinks btn" onclick="openCity(event, 'Tokyo')">Fourth Tab</button>
+    </div>
+    <div id="London" class="tabcontent container bg-white  container-shadow my-3 py-2">
+        <div class="row vDCustom-Row-width">
+            <div class="col text-center">
+                <p>Name</p>
+            </div>
+            <div class="col">
+                <p>Jhon Smith</p>
+            </div>
+        </div>
+        <div class="row vDCustom-Row-width">
+            <div class="col text-center">
+                <p>Contact</p>
+            </div>
+            <div class="col">
+                <p>+9199999999</p>
+            </div>
+        </div>
+        <div class="row vDCustom-Row-width">
+            <div class="col text-center">
+                <p>Address</p>
+            </div>
+            <div class="col">
+                <address>
+                    Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
+                    Visit us at:<br>
+                    Example.com<br>
+                    Box 564, Disneyland<br>
+                    USA
+                </address>
+            </div>
+        </div>
+    </div>
+    <div id="Paris" class="tabcontent container bg-white  container-shadow my-3 py-2 border">
+        <h3>Paris</h3>
+        <p>Paris is the capital of France.</p>
+    </div>
+    <div id="Tokyo" class="tabcontent container bg-white container-shadow my-3 py-2 border">
+        <h3>Tokyo</h3>
+        <p>Tokyo is the capital of Japan.</p>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
